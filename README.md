@@ -1,5 +1,5 @@
 # it.
-![https://img.shields.io/badge/download-1.0-brightgreen.svg](https://raw.githubusercontent.com/downloads/BenFranzi/it./dist/1.0-chrome
+![https://img.shields.io/badge/download-1.0-brightgreen.svg](https://raw.githubusercontent.com/downloads/BenFranzi/it./dist/current-chrome
 )
 #### Browser Extension - Make the web a gender neutral place
 
