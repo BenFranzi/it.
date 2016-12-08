@@ -47,7 +47,7 @@ function handleText(textNode)
   v = v.replace(/\bHers\b/g, 'Their')
   v = v.replace(/\bmale\b/g, 'it')
   v = v.replace(/\bMale\b/g, 'It')
-  v = v.replace(/\bfemale\b/g, 'It')
+  v = v.replace(/\bfemale\b/g, 'it')
   v = v.replace(/\bFemale\b/g, 'It')
 
 	textNode.nodeValue = v;
