@@ -1,0 +1,15 @@
+{
+
+  "description": "Browser Extension - Make the web a gender neutral place",
+  "manifest_version": 1,
+  "name": "it.",
+  "version": "1.0",
+  "homepage_url": "https://github.com/BenFranzi/it.",
+  "background": {
+    "scripts": ["it.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
