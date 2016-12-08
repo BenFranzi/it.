@@ -1,7 +1,6 @@
 {
-
-  "description": "Browser Extension - Make the web a gender neutral place",
-  "manifest_version": 1,
+  "description": "it. (Browser Extension) - Make the web a gender neutral place",
+  "manifest_version": 2,
   "name": "it.",
   "version": "1.0",
   "homepage_url": "https://github.com/BenFranzi/it.",
@@ -9,7 +8,25 @@
     "scripts": ["it.js"]
   },
   "permissions": [
-    "activeTab",
-    "tabs"
-  ]
+    "http://*.google.com/", "http://*.com/", "tabs"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "64": "icons/icon64.png",
+    "128":"icons/icon128.png"
+  },
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["it.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon.svg",
+    "default_title": "it.",
+    "default_popup": "popup.html"
+  }
 }
