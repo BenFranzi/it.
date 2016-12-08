@@ -25,7 +25,6 @@
     }
   ],
   "browser_action": {
-    "default_icon": "icons/icon.svg",
     "default_title": "it.",
     "default_popup": "popup.html"
   }
