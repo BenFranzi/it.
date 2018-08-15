@@ -6,4 +6,4 @@
 
 ![logo](https://github.com/BenFranzi/it./raw/master/it./icons/icon128.png)
 
-This was a late night mini-hackathon. I got bored, ideas were running low, things were made. This project is heavily based off the [drumpf](https://chrome.google.com/webstore/detail/drumpfinator/hcimhbfpiofdihhdnofbdlhjcmjopilp) extension.
+This was a late night mini-hackathon. I got bored, ideas were running low, things were made. This project based off the [drumpf](https://chrome.google.com/webstore/detail/drumpfinator/hcimhbfpiofdihhdnofbdlhjcmjopilp) extension.
